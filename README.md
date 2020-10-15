@@ -5,7 +5,7 @@
 [![](https://github.com/stimulus-components/stimulus-textarea-autogrow/workflows/Lint/badge.svg)](https://github.com/stimulus-components/stimulus-textarea-autogrow)
 [![](https://github.com/stimulus-components/stimulus-textarea-autogrow/workflows/Test/badge.svg)](https://github.com/stimulus-components/stimulus-textarea-autogrow)
 [![](https://img.shields.io/github/license/stimulus-components/stimulus-textarea-autogrow.svg)](https://github.com/stimulus-components/stimulus-textarea-autogrow)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bc6c7113-e3e7-4d1f-9508-4b631eea2e70/deploy-status)](https://stimulus-textarea-autogrow.netlify.com)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/073b5fee-358d-4dbf-b807-52034690f8ef/deploy-status)](https://stimulus-textarea-autogrow.netlify.com)
 
 ## Getting started
 
