@@ -9,7 +9,7 @@
 
 ## Getting started
 
-A Stimulus controller to asynchronously load HTML from an url.
+A Stimulus controller for autogrowing textarea.
 
 ## Installation
 
