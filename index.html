@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+    <title>Stimulus Textarea Autogrow</title>
+    <script type="module" src="./src/index.js" defer></script>
+    <script src="https://unpkg.com/stimulus/dist/stimulus.umd.js" defer></script>
+
+    <script type="module" defer>
+      import TextareaAutogrow from './src/index.js'
+
+      const application = Stimulus.Application.start()
+      application.register('textarea-autogrow', TextareaAutogrow)
+    </script>
+
+    <style>
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      li {
+        display: inline-block;
+        margin: 0 10px;
+      }
+
+      a {
+        color: #667eea;
+        display: inline-block;
+      }
+
+      .badges a {
+        margin: 0 0.25rem;
+      }
+
+      pre code {
+        border-radius: 0.5rem;
+        text-align: left;
+        font-family: Menlo, 'Courier New', Courier, monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="w-full max-w-6xl mx-auto my-24 p-4">
+      <h1 class="text-center mb-8 text-5xl font-bold">Stimulus Textarea Autogrow</h1>
+
+      <p class="text-center mb-4">
+        A Stimulus controller for autogrowing textarea.
+      </p>
+
+      <p class="text-center badges">
+        <a href="https://www.npmjs.com/package/stimulus-textarea-autogrow">
+          <img src="https://img.shields.io/npm/dt/stimulus-textarea-autogrow.svg" />
+        </a>
+
+        <a href="https://www.npmjs.com/package/stimulus-textarea-autogrow">
+          <img src="https://img.shields.io/npm/v/stimulus-textarea-autogrow.svg" />
+        </a>
+
+        <a href="https://github.com/stimulus-components/stimulus-textarea-autogrow">
+          <img src="https://github.com/stimulus-components/stimulus-textarea-autogrow/workflows/Lint/badge.svg" />
+        </a>
+
+        <a href="https://github.com/stimulus-components/stimulus-textarea-autogrow">
+          <img src="https://github.com/stimulus-components/stimulus-textarea-autogrow/workflows/Test/badge.svg" />
+        </a>
+
+        <a href="https://github.com/stimulus-components/stimulus-textarea-autogrow">
+          <img src="https://img.shields.io/github/license/stimulus-components/stimulus-textarea-autogrow.svg" />
+        </a>
+
+        <a href="https://stimulus-textarea-autogrow.netlify.com/">
+          <img src="https://api.netlify.com/api/v1/badges/bc6c7113-e3e7-4d1f-9508-4b631eea2e70/deploy-status" />
+        </a>
+      </p>
+
+      <h2 class="text-center text-2xl font-bold my-4">Essential links</h2>
+
+      <ul class="text-center mb-8">
+        <li>
+          <a href="https://github.com/stimulus-components/stimulus-textarea-autogrow" target="_blank" rel="noopener">
+            Github
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.npmjs.com/package/stimulus-textarea-autogrow" target="_blank" rel="noopener">
+            Npm
+          </a>
+        </li>
+      </ul>
+
+      <section class="mt-16">
+        <h2 class="text-2xl font-bold mb-4">
+          <a href="https://github.com/guillaumebriday/stimulus-components/tree/master/src/textarea-autogrow"
+            >Textarea Autogrow Controller</a
+          >
+        </h2>
+
+        <textarea
+          data-controller="textarea-autogrow"
+          class="w-full shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+        >
+Trysail American Main grog quarterdeck swing the lead overhaul gangway Privateer pink gabion. Arr Buccaneer barque yawl gunwalls six pounders chase guns transom smartly fore. Hang the jib barkadeer poop deck yawl reef fluke lass grapple clipper black jack.
+
+Wherry capstan league spyglass Sea Legs deadlights Corsair landlubber or just lubber parrel sutler. Swing the lead reef crimp sloop red ensign poop deck cog fore killick warp. Trysail Sink me case shot rigging Shiver me timbers barkadeer Privateer poop deck handsomely mizzen.
+
+Chain Shot doubloon snow driver list blow the man down sutler handsomely smartly Admiral of the Black. Aft scuppers furl prow long clothes loaded to the gunwalls square-rigged lugsail spyglass squiffy. Broadside spanker bounty killick fluke quarterdeck swing the lead execution dock squiffy boatswain.
+        </textarea>
+      </section>
+    </div>
+  </body>
+</html>
