@@ -2,11 +2,14 @@ import { Controller } from 'stimulus'
 import { debounce } from './utils'
 
 export default class extends Controller {
+  initialize () {
+    this.autogrow = this.autogrow.bind(this)
+  }
+
   connect () {
     this.element.style.overflow = 'hidden'
     const delay = this.data.get('resizeDebounceDelay') || 100
 
-    this.autogrow = this.autogrow.bind(this)
     this.onResize = delay > 0 ? debounce(this.autogrow, delay) : this.autogrow
 
     this.autogrow()
