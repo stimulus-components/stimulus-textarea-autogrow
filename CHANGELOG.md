@@ -6,6 +6,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.0] - 2020-12-05
+
+### Added
+
+- Support for Stimulus 2.0
+
+### Changed
+
+- **Breaking** Using the new `values` static property
+
+```diff
+- <textarea data-controller="textarea-autogrow" data-textarea-autogrow-resize-debounce-delay="500">
++ <textarea data-controller="textarea-autogrow" data-textarea-autogrow-resize-debounce-delay-value="500">
+```
+
 ## [1.0.0] - 2020-10-15
 
 ### Added
