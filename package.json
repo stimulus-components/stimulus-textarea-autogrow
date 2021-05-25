@@ -1,6 +1,6 @@
 {
   "name": "stimulus-textarea-autogrow",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A Stimulus controller for autogrowing textarea.",
   "repository": "git@github.com:stimulus-components/stimulus-textarea-autogrow.git",
   "author": "Guillaume Briday <guillaumebriday@gmail.com>",
