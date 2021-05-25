@@ -1,5 +1,5 @@
-function debounce (callback, delay) {
-  let timeout
+function debounce (callback: Function, delay: number) {
+  let timeout: number
 
   return (...args) => {
     const context = this

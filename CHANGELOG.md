@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.0.0] - 2021-05-25
+
+### Chore
+
+- Moving from Snowpack to Vite
+- Using `stimulus` as external library reducing bundle size from `40.72kb` to `0.67kb`.
+- Moving to TypeScript
+- Upgrading Node to 14.17.0
+
 ## [2.0.0] - 2020-12-05
 
 ### Added
