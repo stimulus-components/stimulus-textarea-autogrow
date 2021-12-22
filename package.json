@@ -1,6 +1,6 @@
 {
   "name": "stimulus-textarea-autogrow",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "A Stimulus controller for autogrowing textarea.",
   "repository": "git@github.com:stimulus-components/stimulus-textarea-autogrow.git",
   "author": "Guillaume Briday <guillaumebriday@gmail.com>",
@@ -25,11 +25,11 @@
     "@babel/preset-typescript": "^7.13.0",
     "np": "^7.5.0",
     "prettier-standard": "16.3.0",
-    "stimulus": "^2.0.0",
+    "@hotwired/stimulus": "^3.0.0",
     "typescript": "^4.2.4",
     "vite": "^2.3.4"
   },
   "peerDependencies": {
-    "stimulus": "^2.0.0"
+    "@hotwired/stimulus": "^3.0.0"
   }
 }
