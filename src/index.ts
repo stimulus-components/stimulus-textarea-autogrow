@@ -1,15 +1,18 @@
-import { Controller } from 'stimulus'
+import { Controller } from '@hotwired/stimulus'
 import { debounce } from './utils'
 
 export default class extends Controller {
   // @ts-ignore
   element: HTMLInputElement
-  onResize: EventListenerOrEventListenerObject
+  onResize: EventListenerOrEventListenerObject // eslint-disable-line no-undef
 
   resizeDebounceDelayValue: number
 
   static values = {
-    resizeDebounceDelay: Number
+    resizeDebounceDelay: {
+      type: Number,
+      default: 100
+    }
   }
 
   initialize (): void {
@@ -18,7 +21,7 @@ export default class extends Controller {
 
   connect (): void {
     this.element.style.overflow = 'hidden'
-    const delay: number = this.resizeDebounceDelayValue || 100
+    const delay: number = this.resizeDebounceDelayValue
 
     this.onResize = delay > 0 ? debounce(this.autogrow, delay) : this.autogrow
 
