@@ -1,3 +1,9 @@
 [build]
   publish="dist"
   command="yarn prod"
+
+[[redirects]]
+  from = "https://stimulus-textarea-autogrow.netlify.app/*"
+  to = "https://stimulus-textarea-autogrow.stimulus-components.com/:splat"
+  status = 301
+  force = true
