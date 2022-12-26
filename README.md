@@ -4,7 +4,6 @@
 [![](https://img.shields.io/npm/v/stimulus-textarea-autogrow.svg)](https://www.npmjs.com/package/stimulus-textarea-autogrow)
 [![](https://github.com/stimulus-components/stimulus-textarea-autogrow/workflows/Lint/badge.svg)](https://github.com/stimulus-components/stimulus-textarea-autogrow)
 [![](https://img.shields.io/github/license/stimulus-components/stimulus-textarea-autogrow.svg)](https://github.com/stimulus-components/stimulus-textarea-autogrow)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/073b5fee-358d-4dbf-b807-52034690f8ef/deploy-status)](https://stimulus-textarea-autogrow.netlify.com)
 
 ## Getting started
 
@@ -12,7 +11,7 @@ A Stimulus controller for autogrowing textarea.
 
 ## 📚 Documentation
 
-See [stimulus-textarea-autogrow documentation](https://stimulus-components.netlify.app/docs/components/stimulus-textarea-autogrow/).
+See [stimulus-textarea-autogrow documentation](https://www.stimulus-components.com/docs/stimulus-textarea-autogrow/).
 
 ## 👷‍♂️ Contributing
 
