@@ -36,7 +36,10 @@ export default class extends Controller {
   }
 
   autogrow (): void {
-    this.element.style.height = 'auto' // Force re-print before calculating the scrollHeight value.
-    this.element.style.height = `${this.element.scrollHeight}px`
+    requestAnimationFrame((): void => {
+      this.element.style.height = 'auto' // Force re-print before calculating the scrollHeight value.
+      this.element.style.height = `${this.element.scrollHeight}px`
+      }
+    )
   }
 }
